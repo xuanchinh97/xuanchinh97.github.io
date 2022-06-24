@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xuanchinh97.github.io/static/css/main.51649bae.css",
-    "main.js": "/xuanchinh97.github.io/static/js/main.ce3d5c4a.js",
+    "main.js": "/xuanchinh97.github.io/static/js/main.40f00e4f.js",
     "static/css/657.5e6f8b91.chunk.css": "/xuanchinh97.github.io/static/css/657.5e6f8b91.chunk.css",
     "static/js/657.dec06307.chunk.js": "/xuanchinh97.github.io/static/js/657.dec06307.chunk.js",
     "static/css/844.b24333bf.chunk.css": "/xuanchinh97.github.io/static/css/844.b24333bf.chunk.css",
@@ -29,7 +29,7 @@
     "static/media/modal-close.svg": "/xuanchinh97.github.io/static/media/modal-close.f61e09ce39d6407ec77f2f5e76b29448.svg",
     "static/media/toggle-light.svg": "/xuanchinh97.github.io/static/media/toggle-light.28152a5f3e52dffa94604beebe634b9b.svg",
     "main.51649bae.css.map": "/xuanchinh97.github.io/static/css/main.51649bae.css.map",
-    "main.ce3d5c4a.js.map": "/xuanchinh97.github.io/static/js/main.ce3d5c4a.js.map",
+    "main.40f00e4f.js.map": "/xuanchinh97.github.io/static/js/main.40f00e4f.js.map",
     "657.5e6f8b91.chunk.css.map": "/xuanchinh97.github.io/static/css/657.5e6f8b91.chunk.css.map",
     "657.dec06307.chunk.js.map": "/xuanchinh97.github.io/static/js/657.dec06307.chunk.js.map",
     "844.b24333bf.chunk.css.map": "/xuanchinh97.github.io/static/css/844.b24333bf.chunk.css.map",
@@ -47,6 +47,6 @@
   },
   "entrypoints": [
     "static/css/main.51649bae.css",
-    "static/js/main.ce3d5c4a.js"
+    "static/js/main.40f00e4f.js"
   ]
 }
