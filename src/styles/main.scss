@@ -92,12 +92,12 @@ fieldset{
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: var(--border);
   border-radius: 12px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: var(--border-hover);
   border-radius: 12px;
 }
 

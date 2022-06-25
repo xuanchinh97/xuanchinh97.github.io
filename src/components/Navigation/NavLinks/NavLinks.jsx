@@ -35,7 +35,7 @@ const NavLinks = () => {
       <li>
         <NavLink to={routes.RESUME} activeClassName={s.active}>
           <CgFileDocument />
-          Resume
+          CV
         </NavLink>
       </li>
     </ul>

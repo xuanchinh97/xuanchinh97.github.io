@@ -1,5 +1,5 @@
 import s from './ModalProjectCard.module.scss';
-import { BiLinkExternal } from 'react-icons/all';
+import { BiLinkExternal } from 'react-icons/bi';
 import Modal from '../../../components/Modal/Modal';
 import Button from '../../../components/UIElements/Button/Button';
 import { useParams } from 'react-router-dom';
@@ -17,6 +17,7 @@ const ModalProjectCard = () => {
 
   useEffect(() => {
     toggleModal();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -48,7 +49,7 @@ const ModalProjectCard = () => {
             href={links.site}
             target="_blank"
           >
-            <BiLinkExternal /> &nbsp; View project
+            <BiLinkExternal /> &nbsp; Live Demo 
           </Button>
 
           <Button
@@ -57,7 +58,7 @@ const ModalProjectCard = () => {
             href={links.repo}
             target="_blank"
           >
-            <BiLinkExternal /> &nbsp; Know more
+            <BiLinkExternal /> &nbsp; GitHub
           </Button>
         </div>
       </div>

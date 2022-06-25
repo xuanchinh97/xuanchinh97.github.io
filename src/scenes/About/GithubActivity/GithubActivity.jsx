@@ -5,16 +5,16 @@ const GithubActivity = () => {
   const colorTheme = {
     background: 'transparent',
     text: '#ffffff',
-    grade4: '#8400b8',
-    grade3: '#b22ff4',
-    grade2: '#b265f6',
-    grade1: '#c084f5',
-    grade0: '#ecd9fc',
+    grade4: '#326f39',
+    grade3: '#4ca14f',
+    grade2: '#5fc563',
+    grade1: '#9be9a8',
+    grade0: '#ebedf0',
   };
   return (
     <div className={s.container}>
       <GitHubCalendar
-        username="vsnaichuk"
+        username="xuanchinh97"
         blockSize={15}
         blockMargin={5}
         theme={colorTheme}

@@ -11,7 +11,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  'https://raw.githubusercontent.com/vsnaichuk/vsnaichuk/master/CV.pdf';
+  'https://raw.githubusercontent.com/xuanchinh97/xuanchinh97/master/trinhxuanchinh_frontend_cv.pdf';
 
 const Resume = () => {
   const pdfWrapper = useRef(null);
@@ -39,7 +39,7 @@ const Resume = () => {
       <div className={s.content}>
         <div className={s.header}>
           <h1 className={s.title}>
-            My <br /> Resume
+            My CV
           </h1>
 
           <div className={s.filesImg}>
@@ -54,8 +54,7 @@ const Resume = () => {
           target="_blank"
         >
           <DownloadIcon fill="#fff" />
-          <span className={s.downloadText}> download resume</span>
-          <span className={s.filename}>.pdf</span>
+          <span className={s.downloadText}> download </span>
         </Button>
 
         <div className={s.pdfWrapper} ref={pdfWrapper}>

@@ -1,11 +1,12 @@
 import s from './IntroSection.module.scss';
 import avatar from '../../../assets/avatar.svg';
-import { AiFillGithub } from 'react-icons/ai';
+// import { AiFillGithub } from 'react-icons/ai';
 import {
-  FaFacebookSquare,
+  FaGithub,
+  FaFacebook,
   FaLinkedinIn,
-  FaTelegramPlane,
 } from 'react-icons/fa';
+import { IoMdMail } from "react-icons/io";
 import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -36,16 +37,16 @@ const IntroSection = () => {
             </p>
 
             <p>
-              A passionate Full Stack Software Developer 🚀 <br />I
+              A passionate Front End Developer 🚀 <br />I
               have an experience of building{' '}
               <i>
-                <b className={s.purple}>Web and Mobile</b>
+                <b className={s.purple}>Web</b>
               </i>{' '}
               applications with
               <br />
               <i>
                 <b className={s.purple}>
-                  JavaScript, Reactjs, Nodejs, React Native
+                  JavaScript, Reactjs, Nodejs
                 </b>
               </i>{' '}
               and some other cool libraries
@@ -67,37 +68,37 @@ const IntroSection = () => {
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>
             <a
-              href="https://github.com/vsnaichuk"
+              href="https://github.com/xuanchinh97"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
             >
-              <AiFillGithub />
+              <FaGithub />
             </a>
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.facebook.com/Snaychuk"
+              href="https://www.facebook.com/chih.97"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
             >
-              <FaFacebookSquare />
+              <FaFacebook />
             </a>
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://t.me/snaichuk_v"
+              href="mailto:trinhxuanchinh97@gmail.com"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
             >
-              <FaTelegramPlane />
+              <IoMdMail />
             </a>
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+              href="https://www.linkedin.com/in/xuanchinh97/"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}

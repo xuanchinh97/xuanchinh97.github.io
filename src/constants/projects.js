@@ -1,124 +1,161 @@
 export const PROJECTS = [
   {
     id: '1',
-    title: 'Apiko Marketplace',
+    title: 'Shopee Clone UI',
     description:
-      'An online marketplace made with React. The project was developed on 8th Apiko Intensive.',
+      'A project clone UI shopee. The project was build with HTML, CSS, JavaScript.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
+      src: 'https://i.imgur.com/vtCGFxw.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://apiko-marketplace-app-snaichuk.herokuapp.com/',
-      repo: 'https://github.com/vsnaichuk/apiko-marketplace-app-snaichuk',
+      site: 'https://xuanchinh97.github.io/Shopee_clone/',
+      repo: 'https://github.com/xuanchinh97/Shopee_clone',
     },
     technologies: [
-      '#react',
-      '#redux',
-      '#socket.io',
-      '#scss',
-      '#formik',
-      '#react-window',
-      '#restapi',
+      '#html',
+      '#css',
+      '#javascript',
     ],
   },
   {
     id: '2',
-    title: 'Places App',
+    title: 'Play Music',
     description:
-      'A MERN app to let users share their experience of places along with Details. It is user friendly and can be useful to many others.',
+      'Play music basic with JavaScript.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348070/portfolio/projects/mern-places/mern-places-lg_xf6zom.jpg',
+      src: 'https://i.imgur.com/ub6qV0P.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://yourplaces-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/MERN-places',
+      site: 'https://xuanchinh97.github.io/Play_music/',
+      repo: 'https://github.com/xuanchinh97/Play_music',
     },
     technologies: [
-      '#react',
-      '#nodejs',
-      '#express',
-      '#mongodb',
-      '#react-query',
-      '#react-transition-group',
-      '#mongoose',
-      '#jwt',
-      '#aws',
+      '#html',
+      '#css',
+      '#javascript',
     ],
   },
   {
     id: '3',
-    title: 'eCommerce Mobile App',
+    title: 'Todo List',
     description:
-      'A Mobile eCommerce application built with React Native that includes cart functionality, push notifications, user authentication and user orders',
+      'It is a list manager of tasks you need to complete or things that you want to do',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-shop/rn-shop-lg_fofglf.jpg',
+      src: 'https://i.imgur.com/pMLyHuV.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/online-shop-app',
-      repo: 'https://github.com/vsnaichuk/RN-shop',
+      site: 'https://xuanchinh97.github.io/Todo-list/',
+      repo: 'https://github.com/xuanchinh97/Todo-list',
     },
     technologies: [
-      '#react-native',
-      'expo',
-      '#redux',
-      '#redux-toolkit',
-      '#react-navigation',
-      '#nodejs',
-      '#express',
-      '#mongodb',
+      '#html',
+      '#css',
+      '#javascript',
     ],
   },
   {
     id: '4',
-    title: 'Places Mobile App',
+    title: 'Xuanchinh Mobile',
     description:
-      'A Mobile application for sharing places that people visit from all over the world. Uses React Native, TypeScript, MobX and Native Device Features',
+      'Simple website sell smart phone',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-places/rn-places-lg_ljyikm.jpg',
+      src: 'https://i.imgur.com/0VPaHO5.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/rn-places',
-      repo: 'https://github.com/vsnaichuk/RN-places',
+      site: 'https://xuanchinhmobile.cf/',
+      repo: 'https://github.com/xuanchinh97/Do-An-Web-PHP',
     },
     technologies: [
-      '#react-native',
-      '#typescript',
-      '#expo',
-      '#mobx',
-      '#sqlite',
-      '#react-native-maps',
-      '#expo-location',
+      '#php',
+      '#javaScript',
+      '#html',
+      '#css',
     ],
   },
   {
     id: '5',
-    title: 'Shopping Cart',
+    title: 'Tik Tac Toe',
     description:
-      'Simple eCommerce cart application built with React and TypeScript. Uses SWR hook to fetch the data from the API and Styled Components',
+      'Tic Tac Toe game web version simply using HTML, JS.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/react-shop-cart/rn-shop-cart-lg_w3qxn6.jpg',
+      src: 'https://i.imgur.com/D4lIgPV.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://shopping-cart-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/React-ShoppingCart',
+      site: 'https://xuanchinhcaro.herokuapp.com/',
+      repo: 'https://github.com/xuanchinh97/game-caro-online',
     },
     technologies: [
-      '#react',
-      '#typescript',
-      '#material-ui',
-      '#styled-components',
-      '#swr',
-      '#fakestoreapi',
+      '#nodejs',
+      '#socket-io',
+      '#javaScript',
+    ],
+  },
+  {
+    id: '6',
+    title: 'Weather App',
+    description:
+      'A weather app that uses animation to give you an at-a-glance look at the weather.',
+    image: {
+      src: 'https://i.imgur.com/vv27Y4o.png',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://xuanchinh97.github.io/weather-app/',
+      repo: 'https://github.com/xuanchinh97/weather-app',
+    },
+    technologies: [
+      '#html',
+      '#css',
+      '#javaScript',
+    ],
+  },
+  {
+    id: '7',
+    title: 'Facebook Clone UI',
+    description:
+      'A UI clone of the Facebook app that I created using Bootstrap.',
+    image: {
+      src: 'https://i.imgur.com/CbBALka.png',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://xuanchinh97.github.io/facebook-clone/home.html',
+      repo: 'https://github.com/xuanchinh97/facebook-clone',
+    },
+    technologies: [
+      '#html',
+      '#css',
+      '#bootstrap5',
+    ],
+  },
+  {
+    id: '8',
+    title: 'WordPress News',
+    description:
+      'Online newspaper site.',
+    image: {
+      src: 'https://i.imgur.com/QdbMsa4.png',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://nguoinoitiengvn.cf/',
+      repo: '#',
+    },
+    technologies: [
+      '#wordpress',
     ],
   },
 ];

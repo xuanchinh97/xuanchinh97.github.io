@@ -25,6 +25,7 @@ export const ThemeProvider = ({ children }) => {
       setDark(localeDark);
       document.body.classList.add(localeDark ? 'dark' : 'light');
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
